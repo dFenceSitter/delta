@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Sora", serif;
+    background-color: #0A192F;
+    color: white;
+    
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.container {
+    margin-top: 80px;
+    max-width: 80vw;
+    margin-inline: auto;
+}
+
+.card-section {
+    display: flex;
+    text-align: center;
+}
+
+.card {
+    margin-right: 50px;
+    width: 260px;
+    border: 1px solid #64FEDB;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+/* form {
+    display: flex;
+    flex-direction: row;
+} */
+
+input {
+    display: block;
+    margin-bottom: 20px;
+    width: 552px;
+    height: 68px;
+    padding-left: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+button {
+    margin-top: 10px;
+    width: 231px;
+    height: 66px;
+    border-radius: 10px;
+    background: #64FEDB;
+    border: none;
+    font-family: inherit;
+    font-weight: 600;
+    color:#0A192F;
+}
+
+.btn {
+    margin-top: 20px;
+}
+
+.flex-box {
+    display: flex;
+}
+
+.image {
+    width: 305px;
+    height: 258px;
+}
+
+.main-img {
+    width: 100%;
+    margin-left: 30px;
+}
+
+.img-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img1 {
+    display: flex;
+}
+
+#1st-img {
+    margin-left: 30px;
+}
